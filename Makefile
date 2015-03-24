@@ -5,7 +5,7 @@ MAKE=make
 MODULE=hr_test
 
 modules:
-	echo "start to compile "$(MODULE)
+	echo "start to compile module "$(MODULE)
 	$(CC) -g hr_test.c -lrt -o $(MODULE)
 
 clean:
