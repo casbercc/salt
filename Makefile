@@ -8,11 +8,11 @@ modules:
 	echo "start to compile module: "$(MODULE)
 	$(CC) -g hr_test.c -lrt -o $(MODULE)
 	echo "compile done!"
-	echo "xxx"
 
 clean:
 	rm -f $(MODULE)
 	rm -f $(MODULE).txt
+	echo "yyy"
 
 rebuild:
 	make clean
