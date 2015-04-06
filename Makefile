@@ -13,7 +13,7 @@ modules:
 clean:
 	rm -f $(MODULE)
 	rm -f $(MODULE).txt
-	#echo "222"
+	#echo "222" X
 
 rebuild:
 	make clean
