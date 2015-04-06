@@ -8,7 +8,7 @@ modules:
 	echo "start to compile module: "$(MODULE)
 	$(CC) -g hr_test.c -lrt -o $(MODULE)
 	echo "compile done!"
-	#echo "111"
+	#echo "111" O
 
 clean:
 	rm -f $(MODULE)
