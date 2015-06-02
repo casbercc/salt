@@ -5,6 +5,7 @@
 
 #define AP_NAME "hr_test"
 #define EMPTY_STRUCTURE(S,X) memset((X),0,sizeof(S))
+#define XXX
 
 int timer_start(struct timespec *start_time)
 {
