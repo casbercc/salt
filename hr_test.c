@@ -6,11 +6,13 @@
 #define AP_NAME "hr_test"
 #define EMPTY_STRUCTURE(S,X) memset((X),0,sizeof(S))
 
-static void timer_start(struct timespec *start_time)
+int timer_start(struct timespec *start_time)
 {
 	EMPTY_STRUCTURE(struct timespec,start_time);
 	clock_gettime(CLOCK_THREAD_CPUTIME_ID,start_time);	
 	printf("start: %ld\n",start_time->tv_nsec);
+
+	return 0;
 }
 
 long timer_end(struct timespec start_time)
