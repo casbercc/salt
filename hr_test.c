@@ -6,7 +6,7 @@
 #define AP_NAME "hr_test"
 #define EMPTY_STRUCTURE(S,X) memset((X),0,sizeof(S))
 
-void timer_start(struct timespec *start_time)
+static void timer_start(struct timespec *start_time)
 {
 	EMPTY_STRUCTURE(struct timespec,start_time);
 	clock_gettime(CLOCK_THREAD_CPUTIME_ID,start_time);	
