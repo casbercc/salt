@@ -7,6 +7,7 @@
 #define EMPTY_STRUCTURE(S,X) memset((X),0,sizeof(S))
 #define XXX
 #define YYY
+#define ZZZ
 
 int timer_start(struct timespec *start_time)
 {
