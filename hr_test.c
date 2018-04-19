@@ -9,6 +9,8 @@
 #define YYY
 #define ZZZ
 
+#define ZXC
+
 int timer_start(struct timespec *start_time)
 {
 	EMPTY_STRUCTURE(struct timespec,start_time);
